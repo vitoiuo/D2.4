@@ -1,0 +1,1056 @@
+/* Layout */
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-size: 10px;
+  font-weight: 400;
+  color: #293651;
+  margin: 0%;
+  padding: 0%;
+}
+
+.container {
+  margin: 0px auto;
+  width: 100%;
+  height: 162rem;
+  margin-bottom: 75px;
+}
+
+.center {
+  width: 10rem;
+  height: 15rem;
+  margin-top: 10rem;
+  align-items: center;
+  margin: auto;
+  padding: 0px;
+  box-sizing: border-box;
+  margin-bottom: -75px;
+}
+.center img {
+  width: 10rem;
+  height: 15rem;
+}
+
+h1 {
+  line-height: 50%;
+  padding-top: 5px;
+  padding-bottom: 12px;
+}
+
+h2 {
+  padding-top: 30px;
+  font-weight: normal;
+  font-size: 14px;
+  margin-bottom: 1rem;
+  letter-spacing: 5px;
+  color: #03b698;
+}
+h3 {
+  font-weight: normal;
+  letter-spacing: 3px;
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+div p {
+  color: gray;
+  font-size: 12px;
+  text-align: justify;
+}
+
+button {
+  margin-top: 0.5rem;
+  padding: 0.2rem;
+  width: 8rem;
+  height: 2rem;
+  font-size: 10px;
+  font-family: "Montserrat", sans-serif;
+  word-spacing: 0px;
+  background-color: #03b698;
+  color: white;
+
+  border-radius: 4px;
+  border: 0px;
+}
+
+button:hover {
+  opacity: 50%;
+  font-weight: bold;
+}
+.bloco1 {
+  width: 20rem;
+  height: 28rem;
+  align-items: center;
+  margin: auto;
+  margin-bottom: 10px;
+}
+.bloco2 {
+  width: 16rem;
+  align-items: center;
+  margin: auto;
+  margin-bottom: 100px;
+}
+.bloco2 h2,
+.bloco3 h3 {
+  color: #293651;
+  font-size: 25px;
+  margin-bottom: 2rem;
+  font-weight: 900px;
+  letter-spacing: -1px;
+  font-weight: 300px;
+}
+li {
+  padding: 30x 0px 30px 0px;
+  list-style-type: none;
+}
+.bloco3 {
+  width: 100%;
+
+  height: 1600px;
+  align-items: center;
+  text-align: center;
+  margin: auto;
+  background: linear-gradient(darkcyan, #03b698);
+}
+.bloco3 h3 {
+  font-family: "Quicksand", sans-serif;
+  letter-spacing: 10px;
+  color: white;
+  padding-top: 4rem;
+  margin-bottom: 2rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.inp {
+  padding-top: 25px;
+}
+.inp label {
+  font-size: 12px;
+}
+.inp input {
+  margin: 1rem auto;
+  width: 100%;
+  accent-color: #03b698;
+}
+.box {
+  position: relative;
+  text-align: center;
+  background-color: white;
+  width: 20rem;
+  height: 20rem;
+  display: inline-block;
+  margin: 1rem;
+  box-shadow: 12px 12px 20px rgba(119, 117, 117, 0.548);
+}
+.boxS {
+  position: relative;
+}
+
+.icons {
+  position: relative;
+  top: 1rem;
+  left: -8rem;
+  opacity: 75%;
+  position: relative;
+  background-color: #dbdfdf;
+  width: 4rem;
+  height: 4rem;
+  display: inline-block;
+  border-radius: 1.5rem 1.5rem 0rem 1.5rem;
+  margin-left: 2rem;
+}
+.bloco3 img {
+  position: relative;
+  top: 1rem;
+  width: 2rem;
+}
+.box h3 {
+  text-align: justify;
+  padding-top: 2rem;
+
+  font-size: 15px;
+  font-weight: bold;
+  color: black;
+  letter-spacing: 5px;
+  margin: 0px;
+}
+.text {
+  text-align: justify;
+  width: 80%;
+  margin: auto;
+  height: 15rem;
+  font-size: 12px;
+}
+
+.bigBox {
+  margin: 5rem auto;
+  background-color: #03b698;
+  width: 25rem;
+  height: 8rem;
+  border-radius: 0.25rem;
+}
+.bigBox h3,
+.bigBox p {
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+  font-weight: normal;
+  text-align: justify;
+  margin: 1rem;
+}
+.bigBox h3 {
+  font-weight: bold;
+  padding-top: 1rem;
+}
+.bigBox p {
+  font-size: 10px;
+}
+.linha {
+  text-align: center;
+  width: 25rem;
+}
+.end {
+  height: 30rem;
+  width: 25rem;
+  font-size: 16px;
+  text-align: center;
+  background-color: #f7f2f2;
+}
+.end .email {
+  font-weight: normal;
+  font-size: 20px;
+  color: rgb(190, 190, 190);
+  padding-bottom: 0.5rem;
+}
+.bar {
+  display: inline;
+  margin: 15px;
+  font-size: 10px;
+}
+.bar:hover {
+  color: black;
+}
+.ret {
+  padding-top: 0.5rem;
+  text-align: center;
+  font-size: 10px;
+}
+strong {
+  color: darkcyan;
+  font-weight: normal;
+}
+.icons2 {
+  margin: 5rem 1rem 0rem 1rem;
+  padding: 0rem;
+  width: 2rem;
+  height: 2rem;
+  background-color: rgb(233, 232, 232);
+  display: inline-block;
+  border-radius: 50%;
+}
+.icons2:hover {
+  width: 70px;
+  height: 70px;
+}
+.imgIc img {
+  margin-top: 10px;
+  width: 1rem;
+  height: 1rem;
+  opacity: 50%;
+}
+
+.email:hover {
+  color: black;
+}
+.txtTopo {
+  width: 20rem;
+}
+
+/* Medias Queries */
+
+@media (min-width: 720px) {
+  .container {
+    margin: 0px auto;
+    width: 45rem;
+    height: 150rem;
+    margin-bottom: 75px;
+  }
+
+  .center {
+    width: 20rem;
+    height: 30rem;
+    margin-top: 10rem;
+    align-items: center;
+    margin: auto;
+    padding: 0px;
+    box-sizing: border-box;
+    margin-bottom: -75px;
+  }
+  .center img {
+    width: 20rem;
+    height: 30rem;
+  }
+
+  h1 {
+    font-size: 40px;
+    line-height: 50%;
+    padding-top: 5px;
+    padding-bottom: 12px;
+  }
+
+  h2 {
+    padding-top: 30px;
+    font-weight: normal;
+    font-size: 20px;
+    margin-bottom: 1rem;
+    letter-spacing: 5px;
+    color: #03b698;
+  }
+  h3 {
+    font-weight: normal;
+    letter-spacing: 3px;
+    margin-bottom: 1.5rem;
+    font-size: 22px;
+  }
+
+  div p {
+    color: gray;
+    font-size: 16px;
+    text-align: justify;
+  }
+
+  button {
+    margin-top: 0.5rem;
+    padding: 0.2rem;
+    width: 12rem;
+    height: 3rem;
+    font-size: 15px;
+    font-family: "Montserrat", sans-serif;
+    word-spacing: 0px;
+    background-color: #03b698;
+    color: white;
+
+    border-radius: 4px;
+    border: 0px;
+  }
+
+  button:hover {
+    opacity: 50%;
+    font-weight: bold;
+  }
+  .bloco1 {
+    width: 40rem;
+    height: 28rem;
+    align-items: center;
+    margin: auto;
+    margin-bottom: 25rem;
+  }
+  .bloco2 {
+    width: 30rem;
+    align-items: center;
+    margin: auto;
+    margin-bottom: 100px;
+  }
+  .bloco2 h2,
+  .bloco3 h3 {
+    color: #293651;
+    font-size: 40px;
+    margin-bottom: 2rem;
+    font-weight: 900px;
+    letter-spacing: -1px;
+    font-weight: 300px;
+  }
+
+  .bloco3 {
+    width: 100%;
+    height: 60rem;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    background: linear-gradient(darkcyan, #03b698);
+  }
+  .bloco3 h3 {
+    font-family: "Quicksand", sans-serif;
+    letter-spacing: 10px;
+    color: white;
+    padding-top: 4rem;
+    margin-bottom: 2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  .inp {
+    padding-top: 25px;
+    height: 15rem;
+  }
+  .inp label {
+    font-size: 16px;
+  }
+  .inp input {
+    margin: 1rem auto;
+    width: 30rem;
+    accent-color: #03b698;
+  }
+  .box {
+    position: relative;
+    text-align: center;
+    background-color: white;
+    width: 20rem;
+    height: 20rem;
+    display: inline-block;
+    margin: 1rem;
+    box-shadow: 12px 12px 20px rgba(119, 117, 117, 0.548);
+  }
+  .boxS {
+    position: relative;
+  }
+
+  .icons {
+    position: relative;
+    top: 1rem;
+    left: -7rem;
+    opacity: 75%;
+    position: relative;
+    background-color: #dbdfdf;
+    width: 4rem;
+    height: 4rem;
+    display: inline-block;
+    border-radius: 1.5rem 1.5rem 0rem 1.5rem;
+    margin-left: 2rem;
+  }
+  .bloco3 img {
+    position: relative;
+    top: 1rem;
+    width: 2rem;
+  }
+  .bloco3 p {
+    padding-top: 1.5rem;
+    font-size: 12px;
+  }
+  .box h3 {
+    text-align: justify;
+    padding-top: 3rem;
+
+    font-size: 15px;
+    font-weight: bold;
+    color: black;
+    letter-spacing: 5px;
+    margin: 0px;
+  }
+  .text {
+    text-align: justify;
+    width: 80%;
+    margin: auto;
+    height: 15rem;
+    font-size: 12px;
+  }
+
+  .bigBox {
+    margin: 5rem auto;
+    background-color: #03b698;
+    width: 40rem;
+    height: 12rem;
+    border-radius: 0.25rem;
+  }
+  .bigBox h3,
+  .bigBox p {
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    font-weight: normal;
+    text-align: justify;
+    margin: 1rem;
+    margin-left: 2rem;
+  }
+  .bigBox h3 {
+    font-weight: bold;
+    padding-top: 2.5rem;
+    font-size: 28px;
+  }
+  .bigBox p {
+    font-size: 16px;
+  }
+  .linha {
+    text-align: center;
+    width: 25rem;
+  }
+  .end {
+    height: 30rem;
+    width: 100%;
+    font-size: 16px;
+    text-align: center;
+    background-color: #f7f2f2;
+  }
+  .end .email {
+    font-weight: normal;
+    font-size: 30px;
+    color: rgb(190, 190, 190);
+    padding-bottom: 0.5rem;
+  }
+  .bar {
+    display: inline;
+    margin: 15px;
+    font-size: 12px;
+  }
+  .bar:hover {
+    color: black;
+  }
+  .ret {
+    padding-top: 0.5rem;
+    text-align: center;
+    font-size: 12px;
+  }
+  strong {
+    color: darkcyan;
+    font-weight: normal;
+  }
+  .icons2 {
+    margin: 5rem 1rem 0rem 1rem;
+    padding: 0rem;
+    width: 3rem;
+    height: 3rem;
+    background-color: rgb(233, 232, 232);
+    display: inline-block;
+    border-radius: 50%;
+  }
+  .icons2:hover {
+    width: 70px;
+    height: 70px;
+  }
+  .imgIc img {
+    margin-top: 10px;
+    width: 2rem;
+    height: 2rem;
+    opacity: 50%;
+  }
+
+  .email:hover {
+    color: black;
+  }
+  .txtTopo {
+    width: 40rem;
+  }
+  .boxes {
+    width: 45rem;
+    margin: auto;
+  }
+}
+
+@media (min-width: 960px) {
+  .container {
+    margin: 0px auto;
+    width: 100%;
+    height: 190rem;
+    margin-bottom: 75px;
+  }
+
+  .center {
+    width: 30rem;
+    height: 45rem;
+    margin-top: 10rem;
+    align-items: center;
+    margin: auto;
+    padding: 0px;
+    box-sizing: border-box;
+    margin-bottom: -75px;
+  }
+  .center img {
+    width: 30rem;
+    height: 45rem;
+  }
+
+  h1 {
+    font-size: 60px;
+    line-height: 50%;
+    padding-top: 5px;
+    padding-bottom: 12px;
+  }
+
+  h2 {
+    padding-top: 30px;
+    font-weight: normal;
+    font-size: 28px;
+    margin-bottom: 1rem;
+    letter-spacing: 5px;
+    color: #03b698;
+  }
+  h3 {
+    font-weight: normal;
+    letter-spacing: 3px;
+    margin-bottom: 2rem;
+    font-size: 26px;
+  }
+
+  div p {
+    color: gray;
+    font-size: 20px;
+    margin-bottom: 2rem;
+  }
+
+  button {
+    margin-top: 0.5rem;
+    padding: 0.2rem;
+    width: 17rem;
+    height: 4rem;
+    font-size: 22px;
+    font-family: "Montserrat", sans-serif;
+    word-spacing: 0px;
+    background-color: #03b698;
+    color: white;
+
+    border-radius: 4px;
+    border: 0px;
+  }
+
+  button:hover {
+    opacity: 50%;
+    font-weight: bold;
+  }
+  .bloco1 {
+    width: 50rem;
+    height: 68rem;
+    align-items: center;
+    margin: auto;
+    margin-bottom: 0rem;
+  }
+  .bloco2 {
+    width: 40rem;
+    align-items: center;
+    margin: auto;
+    margin-bottom: 15rem;
+  }
+  .bloco2 h2,
+  .bloco3 h3 {
+    color: #293651;
+    font-size: 55px;
+    margin-bottom: 2rem;
+    font-weight: 900px;
+    letter-spacing: -1px;
+    font-weight: 300px;
+  }
+
+  .bloco3 {
+    width: 100%;
+    height: 70rem;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    background: linear-gradient(darkcyan, #03b698);
+  }
+  .bloco3 h3 {
+    font-family: "Quicksand", sans-serif;
+    letter-spacing: 10px;
+    color: white;
+    padding-top: 4rem;
+    margin-bottom: 2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  .inp {
+    padding-top: 25px;
+    height: 15rem;
+  }
+  .inp label {
+    font-size: 20px;
+  }
+  .inp input {
+    margin: 1rem auto;
+    width: 40rem;
+    accent-color: #03b698;
+  }
+  .box {
+    position: relative;
+    text-align: center;
+    background-color: white;
+    width: 25rem;
+    height: 25rem;
+    display: inline-block;
+    margin: 1rem;
+    box-shadow: 12px 12px 20px rgba(119, 117, 117, 0.548);
+  }
+  .boxS {
+    position: relative;
+  }
+
+  .icons {
+    position: relative;
+    top: 1rem;
+    left: -8rem;
+    opacity: 75%;
+    position: relative;
+    background-color: #dbdfdf;
+    width: 6rem;
+    height: 6rem;
+    display: inline-block;
+    border-radius: 1.5rem 1.5rem 0rem 1.5rem;
+    margin-left: 2rem;
+  }
+  .bloco3 img {
+    position: relative;
+    top: 2rem;
+    width: 3rem;
+  }
+  .bloco3 p {
+    padding-top: 1.5rem;
+    font-size: 15px;
+  }
+  .box h3 {
+    text-align: justify;
+    padding-top: 3rem;
+
+    font-size: 23px;
+    font-weight: bold;
+    color: black;
+    letter-spacing: 5px;
+    margin: 0px;
+  }
+  .text {
+    text-align: justify;
+    width: 80%;
+    margin: auto;
+    height: 15rem;
+    font-size: 12px;
+  }
+
+  .bigBox {
+    margin: 5rem auto;
+    background-color: #03b698;
+    width: 50rem;
+    height: 16rem;
+    border-radius: 0.25rem;
+  }
+  .bigBox h3,
+  .bigBox p {
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    font-weight: normal;
+    text-align: justify;
+    margin: 2rem;
+    margin-left: 4rem;
+  }
+  .bigBox h3 {
+    font-weight: bold;
+    padding-top: 2.5rem;
+    font-size: 30px;
+  }
+  .bigBox p {
+    font-size: 20px;
+  }
+  .linha {
+    text-align: center;
+    width: 25rem;
+  }
+  .end {
+    height: 30rem;
+    width: 100%;
+    font-size: 16px;
+    text-align: center;
+    background-color: #f7f2f2;
+  }
+  .end .email {
+    font-weight: normal;
+    font-size: 40px;
+    color: rgb(190, 190, 190);
+    padding-bottom: 0.5rem;
+  }
+  .bar {
+    display: inline;
+    margin: 15px;
+    font-size: 15px;
+  }
+  .bar:hover {
+    color: black;
+  }
+  .ret {
+    padding-top: 0.5rem;
+    text-align: center;
+    font-size: 15px;
+  }
+  strong {
+    color: darkcyan;
+    font-weight: normal;
+  }
+  .icons2 {
+    margin: 5rem 1rem 0rem 1rem;
+    padding: 0rem;
+    width: 3rem;
+    height: 3rem;
+    background-color: rgb(233, 232, 232);
+    display: inline-block;
+    border-radius: 50%;
+  }
+  .icons2:hover {
+    width: 70px;
+    height: 70px;
+  }
+  .imgIc img {
+    margin-top: 10px;
+    width: 2rem;
+    height: 2rem;
+    opacity: 50%;
+  }
+
+  .email:hover {
+    color: black;
+  }
+  .txtTopo {
+    width: 50rem;
+  }
+  .boxes {
+    width: 100%;
+    margin: auto;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    margin: 0px auto;
+    text-align: justify;
+    width: 100%;
+    height: 210rem;
+    margin-bottom: 75px;
+  }
+
+  .center {
+    width: 30rem;
+    align-items: center;
+    margin: auto;
+    padding: 40px;
+    box-sizing: border-box;
+  }
+  .center img {
+    width: 30rem;
+    height: 45rem;
+  }
+
+  h1 {
+    line-height: 50%;
+    padding-top: 10px;
+    padding-bottom: 14px;
+  }
+
+  h2 {
+    padding-top: 30px;
+    font-weight: normal;
+    font-size: 26px;
+    letter-spacing: 5px;
+    color: #03b698;
+  }
+  h3 {
+    font-weight: normal;
+    letter-spacing: 5px;
+    margin: 2rem 0rem 2rem 0rem;
+    font-size: 28px;
+  }
+
+  div p {
+    color: gray;
+    font-size: 20px;
+  }
+
+  button {
+    padding: 15px;
+    width: 230px;
+    height: 3rem;
+    font-size: 18px;
+    font-family: "Montserrat", sans-serif;
+    word-spacing: 0px;
+    background-color: #03b698;
+    color: white;
+    border-radius: 4px;
+    border: 0px;
+    line-height: 20px;
+  }
+
+  button:hover {
+    opacity: 50%;
+    font-weight: bold;
+  }
+  .bloco1 {
+    width: 700px;
+    height: 450px;
+    align-items: center;
+    margin: auto;
+    margin-bottom: 23rem;
+  }
+  .bloco2 {
+    position: relative;
+    z-index: 2;
+    top: 16rem;
+    width: 600px;
+    background-color: white;
+    align-items: center;
+    margin: auto;
+    margin-bottom: 30rem;
+  }
+  .bloco2 h2,
+  .bloco3 h3 {
+    color: #293651;
+    font-size: 50px;
+    font-weight: 900px;
+    letter-spacing: -1px;
+    font-weight: 300px;
+  }
+  li {
+    padding: 30x 0px 30px 0px;
+    list-style-type: none;
+  }
+  .bloco3 {
+    width: 100%;
+    height: 1450px;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    background: linear-gradient(darkcyan, #03b698);
+  }
+  .bloco3 h3 {
+    font-family: "Quicksand", sans-serif;
+    letter-spacing: 10px;
+    color: white;
+    padding-top: 100px;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  .inp {
+    padding-top: 25px;
+  }
+  .inp label {
+    font-size: 18px;
+  }
+  .inp input {
+    margin: 20px auto;
+    width: 600px;
+    accent-color: #03b698;
+  }
+  .box {
+    background-color: white;
+    width: 500px;
+    height: 500px;
+    display: inline-block;
+    box-shadow: 12px 12px 20px rgba(119, 117, 117, 0.548);
+    margin: 70px 25px;
+    margin-bottom: -20px;
+  }
+  .icons {
+    opacity: 75%;
+    position: relative;
+    top: 30px;
+    left: -10.5rem;
+    background-color: #dbdfdf;
+    width: 95px;
+    height: 100px;
+    display: inline-block;
+    border-radius: 30px 30px 0px 30px;
+  }
+  .bloco3 img {
+    padding-top: 0rem;
+    width: 50px;
+  }
+  .box h3 {
+    text-align: justify;
+    padding-top: 20px;
+    padding-left: -200px;
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+    letter-spacing: 5px;
+  }
+  .box p {
+    font-size: 16px;
+  }
+  .text {
+    padding-top: 30px;
+
+    text-align: justify;
+    width: 400px;
+    height: 200px;
+    font-size: 18px;
+  }
+
+  .bigBox {
+    position: relative;
+    top: -15rem;
+    margin: 0rem auto 5rem auto;
+    background-color: #03b698;
+    width: 70rem;
+    height: 23rem;
+    border-radius: 0.5rem;
+  }
+  .bigBox h3,
+  .bigBox p {
+    font-size: 28px;
+    font-weight: bold;
+    padding-left: 100px;
+    padding-bottom: 40px;
+    color: rgb(255, 255, 255);
+    font-weight: normal;
+    text-align: justify;
+    margin: 0px;
+  }
+  .bigBox h3 {
+    font-size: 35px;
+    font-weight: bold;
+    padding-top: 5rem;
+  }
+  .linha {
+    width: 100%;
+  }
+  .end {
+    height: 700px;
+    width: 100%;
+    font-size: 16px;
+    text-align: center;
+    background-color: #f7f2f2;
+  }
+  .end .email {
+    padding-top: 10px;
+    font-weight: normal;
+    font-size: 48px;
+    color: rgb(190, 190, 190);
+  }
+  .bar {
+    display: inline;
+    margin: 15px;
+  }
+  .bar:hover {
+    color: black;
+  }
+  .ret {
+    padding-top: 30px;
+  }
+  strong {
+    color: darkcyan;
+    font-weight: normal;
+  }
+  .icons2 {
+    margin: 200px 25px -30px 25px;
+    width: 50px;
+    height: 50px;
+    background-color: rgb(233, 232, 232);
+    display: inline-block;
+    border-radius: 50%;
+  }
+  .icons2:hover {
+    width: 70px;
+    height: 70px;
+  }
+  .imgIc img {
+    margin-top: 10px;
+    width: 30px;
+    height: 30px;
+    opacity: 50%;
+  }
+  .imgIc img:hover {
+    width: 50px;
+    height: 50px;
+  }
+
+  .boxes {
+    width: 70rem;
+    margin: auto;
+  }
+  .txtTopo {
+    width: 48rem;
+  }
+  .boxS {
+    top: 1.2rem;
+  }
+}
