@@ -966,9 +966,7 @@ strong {
   }
 
   .bigBox {
-    position: relative;
-    top: -15rem;
-    margin: 0rem auto 5rem auto;
+    margin: 0rem auto 10rem auto;
     background-color: #03b698;
     width: 70rem;
     height: 23rem;
@@ -987,6 +985,7 @@ strong {
   }
   .bigBox h3 {
     font-size: 35px;
+    font-family: "Quicksand", sans-serif;
     font-weight: bold;
     padding-top: 5rem;
   }
